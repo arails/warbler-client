@@ -1,0 +1,11 @@
+{
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "proxies": {
+    "/api": {
+      "origin": "https://warbler-server-ar.herokuapp.com/api"//url for back-end heroku deployment with "/api" at the end
+    }
+  }
+}
